@@ -274,7 +274,7 @@ def move_robot(robot_id, object_id, tray_id, predicted_class):
                 robot_id, i, p.POSITION_CONTROL,
                 joint_positions[i],
                 force=400,
-                maxVelocity=0.9
+                maxVelocity=0.3
             )
         p.stepSimulation()
         time.sleep(1./240.)
