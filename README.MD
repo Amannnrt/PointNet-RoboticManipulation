@@ -8,7 +8,7 @@ Inspired by the PointNet paper, this project demonstrates 3D object recognition 
 
 > ⚡ **Note:** This is an upgraded version of a previously developed project.  
 It now includes a more robust pipeline with:
-- A pre-trained PointNet model for object classification
+- A PointNet model for classification
 - A pick-and-place system integrated with PyBullet
 - Dynamic object configuration (cube/sphere)
 - High-accuracy model trained on a custom point cloud dataset
