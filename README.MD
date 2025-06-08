@@ -51,8 +51,8 @@ pip install pybullet tensorflow numpy matplotlib
 ```
 pointnet-robotic-pick-and-place/
 ├── checkpoints/
-│   └── best_model.h5         # Pre-trained PointNet model
-├── unified_pick_place.py     # Main script for simulation and manipulation
+│   └── best_model.h5         # PointNet model
+├── main.py     # Main script for simulation and manipulation
 ├── README.md                 # Project documentation
 └── LICENSE                   # MIT License
 ```
